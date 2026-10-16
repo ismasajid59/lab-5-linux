@@ -1,0 +1,30 @@
+2026-10-16T06:35:55.830026+00:00 ubuntu sshd-session[14761]: pam_unix(sshd:session): session opened for user ismasajid(uid=1000) by ismasajid(uid=0)
+2026-10-16T06:35:55.841510+00:00 ubuntu systemd-logind[1270]: New session '16' of user 'ismasajid' with class 'user' and type 'tty'.
+2026-10-16T07:17:01.361558+00:00 ubuntu CRON[15629]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-16T07:17:01.385123+00:00 ubuntu CRON[15629]: pam_unix(cron:session): session closed for user root
+2026-10-16T07:25:01.548559+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ismasajid(uid=1000)
+2026-10-16T07:25:01.552232+00:00 ubuntu sudo: ismasajid : TTY=/dev/pts/0 ; PWD=/home/ismasajid/lab-5-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T07:25:01.757761+00:00 ubuntu groupadd[15803]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T07:25:01.761618+00:00 ubuntu groupadd[15803]: group added to /etc/gshadow: name=lab5user
+2026-10-16T07:25:01.764213+00:00 ubuntu groupadd[15803]: new group: name=lab5user, GID=1001
+2026-10-16T07:25:01.811185+00:00 ubuntu useradd[15808]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-16T07:25:29.040556+00:00 ubuntu passwd[15819]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T07:25:36.190981+00:00 ubuntu chfn[15824]: changed user 'lab5user' information
+2026-10-16T07:25:38.660523+00:00 ubuntu gpasswd[15833]: members of group users set by root to ismasajid,lab5user
+2026-10-16T07:25:38.675413+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-10-16T07:26:22.028680+00:00 ubuntu su[15867]: (to lab5user) ismasajid on pts/0
+2026-10-16T07:26:22.031260+00:00 ubuntu su[15867]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ismasajid(uid=1000)
+2026-10-16T07:26:42.124243+00:00 ubuntu su[15867]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T07:27:05.727248+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ismasajid(uid=1000)
+2026-10-16T07:27:05.728298+00:00 ubuntu sudo: ismasajid : TTY=/dev/pts/0 ; PWD=/home/ismasajid/lab-5-linux ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-10-16T07:27:05.754536+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-10-16T07:28:05.125330+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ismasajid(uid=1000)
+2026-10-16T07:28:05.128810+00:00 ubuntu sudo: ismasajid : TTY=/dev/pts/0 ; PWD=/home/ismasajid/lab-5-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T07:28:05.417308+00:00 ubuntu userdel[15956]: delete user 'lab5user'
+2026-10-16T07:28:05.418149+00:00 ubuntu userdel[15956]: delete 'lab5user' from group 'users'
+2026-10-16T07:28:05.418566+00:00 ubuntu userdel[15956]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T07:28:05.419043+00:00 ubuntu userdel[15956]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T07:28:05.419384+00:00 ubuntu userdel[15956]: delete 'lab5user' from shadow group 'users'
+2026-10-16T07:28:05.455867+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-10-16T07:28:28.920899+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ismasajid(uid=1000)
+2026-10-16T07:28:28.921667+00:00 ubuntu sudo: ismasajid : TTY=/dev/pts/0 ; PWD=/home/ismasajid/lab-5-linux ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
