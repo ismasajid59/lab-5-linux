@@ -1,0 +1,4 @@
+ismasaji pts/0        192.168.64.1     Fri Oct 16 06:35 - still logged in
+ismasaji pts/0        192.168.64.1     Tue Oct  6 13:36 - still logged in
+
+wtmpdb begins Tue Oct  6 13:36:01 2026
