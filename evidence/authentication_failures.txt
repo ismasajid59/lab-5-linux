@@ -1,0 +1,3 @@
+Oct 16 06:15:33 ubuntu sudo[13219]: pam_unix(sudo:auth): authentication failure; logname=ismasajid uid=1000 euid=0 tty=/dev/tty1 ruser=ismasajid rhost=  user=ismasajid
+Oct 16 06:25:50 ubuntu sudo[14612]: pam_unix(sudo:auth): authentication failure; logname=ismasajid uid=1000 euid=0 tty=/dev/tty1 ruser=ismasajid rhost=  user=ismasajid
+Oct 16 06:28:18 ubuntu sudo[14637]: pam_unix(sudo:auth): authentication failure; logname=ismasajid uid=1000 euid=0 tty=/dev/tty1 ruser=ismasajid rhost=  user=ismasajid
